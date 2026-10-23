@@ -1,4 +1,4 @@
-# This is name: Build Android APK
+name: Build Android APK
 
 on:
   push:
@@ -47,4 +47,3 @@ jobs:
         with:
           name: Nyago-Cargo-App-Debug
           path: android/app/build/outputs/apk/debug/app-debug.apk
-a basic workflow to help you get started w
